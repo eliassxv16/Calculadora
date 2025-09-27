@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="selector-modo">
+            <button class="modo-btn active" data-modo="cientifica">Científica</button>
+            <button class="modo-btn" data-modo="programador">Programador</button>
+        </div>
+        <div class="contenedor-pantalla">
+            <input type="text" id="pantalla" readonly>
+        </div>
+        <div class="botones">
+            <button class="boton limpiar">C</button>
+            <button class="boton retroceso">←</button>
+            <button class="boton operador">(</button>
+            <button class="boton operador">)</button>
+            <button class="boton numero">7</button>
+            <button class="boton numero">8</button>
+            <button class="boton numero">9</button>
+            <button class="boton operador">/</button>
+            <button class="boton numero">4</button>
+            <button class="boton numero">5</button>
+            <button class="boton numero">6</button>
+            <button class="boton operador">*</button>
+            <button class="boton numero">1</button>
+            <button class="boton numero">2</button>
+            <button class="boton numero">3</button>
+            <button class="boton operador">+</button>
+            <button class="boton numero">0</button>
+            <button class="boton decimal">.</button>
+            <button class="boton igual">=</button>
+        </div>
+        <div class="botones-cientificos">
+            <button class="boton funcion">sin</button>
+            <button class="boton funcion">cos</button>
+            <button class="boton funcion">tan</button>
+            <button class="boton funcion">log</button>
+            <button class="boton funcion">ln</button>
+            <button class="boton funcion">sqrt</button>
+            <button class="boton funcion">^</button>
+            <button class="boton funcion">π</button>
+            <button class="boton funcion">e</button>
+        </div>
+        <div class="botones-programador" style="display: none;">
+            <button class="boton base-btn active" data-base="dec">DEC</button>
+            <button class="boton base-btn" data-base="bin">BIN</button>
+            <button class="boton base-btn" data-base="oct">OCT</button>
+            <button class="boton base-btn" data-base="hex">HEX</button>
+            <button class="boton hex-letter" data-letter="A">A</button>
+            <button class="boton hex-letter" data-letter="B">B</button>
+            <button class="boton hex-letter" data-letter="C">C</button>
+            <button class="boton hex-letter" data-letter="D">D</button>
+            <button class="boton hex-letter" data-letter="E">E</button>
+            <button class="boton hex-letter" data-letter="F">F</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
