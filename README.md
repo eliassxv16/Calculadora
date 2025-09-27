@@ -10,11 +10,11 @@ Calculadora científica en la web con soporte para modo programador. Es una apli
 Sirve para realizar operaciones matemáticas básicas y científicas de manera rápida, así como para convertir números entre diferentes sistemas de numeración (útil para programadores y desarrolladores). Incluye soporte para teclado y animaciones suaves al cambiar modos.
 
 ## Demo o Captura de Pantalla
-Actualmente, el proyecto se ejecuta localmente abriendo `index.html` en un navegador moderno. No está desplegado en la web, pero puedes desplegarlo fácilmente en plataformas gratuitas como Netlify, Vercel o GitHub Pages subiendo los archivos a un repositorio y configurando el build (no requiere compilación).
 
-**Link de Demo:** (No disponible; despliega en GitHub Pages para obtener uno, e.g., https://tu-usuario.github.io/scientific-calculator)
+**Link de Demo:** https://eliassxv16.github.io/Calculadora/
 
 **Imagen de Cómo se Ve:**
+
 ![Captura de Pantalla de la Calculadora](screenshot.png)
 
 
@@ -32,7 +32,7 @@ Actualmente, el proyecto se ejecuta localmente abriendo `index.html` en un naveg
 - No requiere Node.js, servidores o dependencias externas; es una app estática.
 
 ### Pasos para Clonar y Correr el Proyecto
-1. Descarga o clona la carpeta del proyecto (scientific-calculator) a tu PC.
+1. Descarga o clona la carpeta del proyecto (Calculadora) a tu PC.
 2. Abre la carpeta en un editor de código como VS Code (opcional).
 3. Abre el archivo `index.html` en tu navegador preferido (doble clic o arrastrar al navegador).
 4. ¡Listo! Usa los botones o el teclado para calcular. Cambia modos con los botones superiores.
