@@ -37,11 +37,6 @@ Sirve para realizar operaciones matemáticas básicas y científicas de manera r
 3. Abre el archivo `index.html` en tu navegador preferido (doble clic o arrastrar al navegador).
 4. ¡Listo! Usa los botones o el teclado para calcular. Cambia modos con los botones superiores.
 
-Si quieres desplegarlo en la web:
-1. Sube los archivos (index.html, styles.css, script.js) a un repositorio de GitHub.
-2. Activa GitHub Pages en la configuración del repositorio (elige la rama main y carpeta /root).
-3. Accede al link proporcionado (e.g., https://tu-usuario.github.io/scientific-calculator).
-
 ## Explicación Técnica
 ### Tecnologías Usadas
 - **HTML5:** Estructura de la interfaz (divs para display, grids/flex para botones, botones interactivos).
